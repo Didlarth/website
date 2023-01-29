@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    color: black;
+    border-bottom: 1px solid #dbdce0;
+}
+
+ul {
+    margin-right: 30px; 
+    display: flex;
+    position: absolute;
+    right: 0;
+    list-style: none;
+}
+
+ul li {
+    padding: 10px;
+}
+
+ul li a.linkWelcome {
+   text-decoration: none;
+   color: black;
+}
+
+ul li a.linkWelcome:hover {
+    text-shadow: 1px 1px 10px #ffd43b; 
+}
+
+.description {
+    text-align: center;
+    padding: 40px 0px 23px;
+}
+
+.description img {
+    max-width: 380px;
+    border-radius: 40px;
+    box-shadow: 1px 1px 15px #ffd43b;
+    user-select: none;
+    margin-bottom: 10px;
+}
+
+.description h2 {
+    font-size: 40px;
+}
+
+.description span{
+    color: #f3c053;
+    font-size: 20px;
+    text-shadow: 1px 1px 15px #f3c053;
+}
+
+.myBlog {
+    background-color: red;
+    width: 100%;
+    padding: 30px;
+}
+
+.aboutMe,.projects {
+    padding: 10px;
+    border: 1px solid black;
+    background-color: #ffee99;
+    margin-bottom: 50px;
+}
+
+.myBlog h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contact {
+    background-color: #6f5ec6;
+    display: flex;
+    align-items: center;
+    padding: 120px 0px 175px;
+    color: white;
+}
+
+form{
+    width: 500px;
+    margin: auto;
+    border-radius: 7px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 1px 1px 5px 1px white;
+}
+
+form h2 {
+    color: black;
+    padding: 0px 0px 20px;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+form .inputName,.inputEmail, textarea {
+    border: 1px solid #dbdce0;  
+    outline: 0;
+    background-color: hsl(0deg 0% 98%);
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 3px;
+    resize: none;
+}
+
+
+form .button {
+    position: relative;
+    background: transparent;
+    color: #6f5ec6;
+    left: 399px;
+    padding: 5px 10px;
+    border: 3px solid #6f5ec6;
+    cursor: pointer;
+}
+
+form .button:hover {
+    background: #6f5ec6;
+    color: white;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    background-color: #183153;
+    border-top: 1px solid #dbdce0;
+    color: #f2f2f2;
+}
+
+footer p.ubicacion,.copyright {
+    padding: 10px;
+    text-align: center;
+}
+
+
+footer div.copyright {
+    text-align: center;
+    color: #dbdce0;
+}
